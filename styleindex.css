@@ -1,0 +1,650 @@
+.maincontrol {
+  z-index: -1;
+  margin-top: -4.4vh;
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  min-width: 90vw;
+  min-height: 480vh;
+  background-color: #F3F2F2;
+}
+
+.place {
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  min-width: 90vw;
+  height: 1.7vh;
+  border: 0.2vh solid #767575;
+  background-color: #C4C4C4;
+}
+
+.place1 {
+  width: 1vw;
+  height: 4.6vh;
+  border: 0.2vh solid #767575;
+  background-color: #C4C4C4;
+}
+
+.specborder1 {
+  border-bottom-left-radius: 10%;
+}
+
+.specborder2 {
+  border-bottom-right-radius: 10%;
+}
+
+button {
+  box-shadow: 0vh 3px 5px rgb(149, 149, 149);
+  background-color: #016B76; /* Green background */
+  border: 0px; /* Green border */
+  color: white; /* White text */
+  width: 10vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2vh;
+  cursor: pointer; /* Pointer/hand icon */
+  float: inline; /* Float the .button1s side by side */
+}
+.btn-group{
+  height: 5vh;
+  text-align: center;
+  cursor: pointer; /* Pointer/hand icon */
+  float: inline; /* Float the .button1s side by side */
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  background-color: #C4C4C4;
+  display: flex;
+  padding-bottom: 0.4vh;
+}
+
+.btn-group .button1:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group .button1:hover {
+  background-color: blue;
+}
+
+/* Add a background color on hover */
+.btn-group .button1:hover {
+  background-color: blue;
+}
+
+.btn {
+  background-color: #016B76;
+  color: #FFFFFF;
+  font-size: 2vh;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+
+h1 {
+  font-family: "Roboto";
+  color: #004F57;
+  font-weight: 400;
+  text-align: center;
+  font-size: 6vh;
+  margin-bottom: 0.1vw;
+}
+
+.meet {
+  border: 2px solid #73677e;
+  border-radius: 8px;
+  text-align: center;
+  display: flexbox;
+  background-color: #E5E5E5; /* Green background */
+  border: 1px solid #9A9999; /* Green border */
+  color: rgb(114, 110, 110); /* White text */
+  padding: 0.5vh 2.5vw; /* Some padding */
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3vh;
+  float: inline-end;
+}
+
+h1.meet1 {
+  font-family: "Roboto";
+  color: #004F57;
+  font-weight: 400;
+  text-align: center;
+  font-size: 7vh;
+  padding-bottom: 2vh;
+}
+
+.priorwrap {
+  width: 79vw; /*фиксируем ширину обертки*/
+  margin: 0 auto; /*центрируем ее*/
+  height: 50vh; /*Задаем высоту обертки*/
+  display: block;
+}
+
+.prior {
+  vertical-align: top;
+  display: inline-block;
+  width: 19vw; /*Фиксируем ширину блока*/
+  min-height: 5vh;
+  padding-left: 0.5vw;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  border-color: rgb(2, 119, 253);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0vw;
+  margin-left: 0vw;
+  margin-top: -2vh;
+  font-weight: 100;
+}
+
+.round {
+  display: inline-table;
+
+  width: 7%;
+  height: auto;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 50%;
+  margin-top: 4vh;
+  text-decoration: #9A9999;
+  line-height: 2vh;  /* подробнее про line-height */
+  text-align: center;  /* выравнять текст по середине по горизонтали */
+  background: #E5E5E5;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-align: center;
+  margin-right: -1vw;
+}
+
+.digit{
+  padding:  1vw;
+  font-weight: 900;
+  font-size: 5vh;
+  color: #838282;
+}
+
+.telephone {
+  font-family: "Roboto";
+  color: white;
+  font-size: 3vw;
+  padding-top: 43vh;
+  padding-left: 77vw;
+  font-weight: 600;
+}
+
+h1.distEdu {
+  font-family: "Roboto";
+  color: #9C9B9B;
+  font-weight: 400;
+  text-align: center;
+  font-size: 6vh;
+  margin-top: 0.2vh;
+  margin-bottom: 3vh;
+}
+
+p.space {
+  word-spacing: 20vh;
+  padding: 4vh 4vw;
+}
+
+p.space2 {
+  word-spacing: 5vh;
+  padding: 0.4vh 0.4vw;
+}
+
+p {
+  color: rgb(121, 118, 118);
+  font-weight: 900;
+  font-size: 3.7vh;
+  padding-top: 6vh;
+}
+
+p.controlend {
+  color: rgb(121, 118, 118);
+  font-weight: 900;
+  font-size: 3.7vh;
+  padding-top: 1vh;
+  line-height: 1.5vh;
+  margin-bottom: 5vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #dcdcdc;
+  transform: scale(1);
+}
+
+
+.body_slides {
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  min-width: 90vw;
+  min-height: 50vh;
+
+  margin-top: 5vh;
+  padding-bottom: 0.2vh;
+  background-image: url("images/main3.gif");
+  background-size: 100%  100%;
+}
+
+
+.wrap {
+  width: 65vw; /*фиксируем ширину обертки*/
+  margin: 0 auto; /*центрируем ее*/
+  height: 92vh; /*Задаем высоту обертки*/
+}
+
+.bblock {
+  box-shadow: 0vh 6px 5px rgb(149, 149, 149);
+  min-width: 17.5vw; /*Фиксируем ширину блока*/
+  min-height: 35.3vh;
+  padding-left: 1.6vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border-color: 2px solid #01889C;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 3.5vw;
+  margin-top: 7vh;
+}
+
+.bblock:hover {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+.bblock1 {
+  background-image: url("images/program1.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+.bblock2 {
+  background-image: url("images/program2.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+.bblock3 {
+  background-image: url("images/program3.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+.bblock4 {
+  background-image: url("images/program4.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+.bblock5 {
+  background-image: url("images/program5.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+.bblock6 {
+  background-image: url("images/program6.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+
+.bblock11 {
+  box-shadow: 0vh 6px 5px rgb(149, 149, 149);
+  float: center;
+  min-width: 18vw; /*Фиксируем ширину блока*/
+  min-height: 28vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border-color: 2px solid #01889C;
+  margin-right: 5vw;
+  margin-top: 7vh;
+  display: block;
+  margin: 0 auto; /*центрируем ее*/
+}
+
+.bblock11:hover {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+.bblock7 {
+  background-image: url("images/distEdu.jpg");
+  background-size: 98.5%  98.5%;
+  background-position: center;
+}
+
+.badgesexper {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.badges {
+  float: center;
+  width: 5.5vw; /*Фиксируем ширину блока*/
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: 0px;
+  display: inline-flex;
+  margin: 0 auto; /*центрируем ее*/
+  border-radius: 25%;
+}
+
+.badges:hover {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+.badges1 {
+  background-image: url("images/badges1.png");
+  background-size: 100%  100%;
+}
+
+.badges2 {
+  background-image: url("images/badges2.png");
+  background-size: 100%  100%;
+}
+
+.badges3 {
+  background-image: url("images/badges3.png");
+  background-size: 100%  100%;
+}
+
+.badges4 {
+  background-image: url("images/badges4.png");
+  background-size: 100%  100%;
+}
+
+.header {
+  position: relative;
+}
+.cover {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+.wrap :last-child {
+  margin-right: 0px; /*Убираем поле последнего div-а*/
+}
+
+.end {
+  cursor: pointer;
+  font-family: "Roboto";
+  color: #004F57;
+  font-weight: 400;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+
+.endblock {
+  height: 40vh;
+  position: relative;
+  padding-left: 3vw;
+  padding-top: -1vh;
+  line-height: 1vh; 
+  margin-right: 2vw;
+  margin-top: -10vh;
+}
+
+.endblocks {
+  width: 80vw;
+  display: inline-flex;
+  position: relative;
+  margin-top: -1vh;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+  padding: 2vw;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2982a5;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 1vh 1vw;
+  font-size: 2vh;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #046dc3;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown .button1 when the dropdown content is shown */
+.btn:hover,
+.dropdown:hover .btn {
+  background-color: #046dc3;
+}
+
+p.ending {
+  font-family: "Roboto";
+  color: #004F57;
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+p.contact {
+  color: #838282;
+  font-size: 3vh;
+  font-weight: 400;
+  padding: 0vh 0vw;
+  line-height: 0.8vh;
+}
+
+p.comment {
+  color:#838282;
+  font-size: 2.8vh;
+  font-weight: 400;
+  padding-top: 2vh;
+}
+
+.mainbadges {
+  width: 9vw;
+  display: table;
+  position: absolute;
+  text-align: end;
+  padding-right: 2.5vw;
+  padding-left: 85.7vw;
+  padding-top: 1.5vh;
+  z-index: 1;
+}
+
+.imagebadges {
+  width: 3vw;
+  padding-left: 0.3vw;
+}
+
+.mainblock {
+  margin-top: 5vh;
+  margin-left: 2.7vw;
+  margin-right: 2.7vw;
+  min-width: 90vw;
+  min-height: 12vh;
+  padding-bottom: 0.2vh;
+
+  background-image: url("images/mainblock.jpg");
+  background-size: 100%  100%;
+
+  
+}
+
+.video1 {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width:321px){
+  body{width:100px}
+  }
+
+  .placess {
+    width: 90%;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+      width: 200vw;
+      height: 80vh;
+      margin-right: 2vw;
+      display: inline-flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  
+  
+  
+    .trener {
+      box-shadow: 0vh 6px 5px rgb(149, 149, 149);
+      min-width: 15vw;
+      height: 55vh;
+      border: 2px solid #01889C;
+      margin-top: 10vh;
+      margin-right: 6vw;
+      margin-left: 4vw;
+      margin-bottom: 5vh;
+    }
+
+    .trener1 {
+      background-image: url(images/trener1.png);
+      background-size: 100%  100%;
+      background-position: center;
+    }
+    
+    .trener2 {
+      background-image: url(images/trener2.png);
+      background-size: 98.5%  98.5%;
+      background-position: center;
+    }
+
+    .trener3 {
+      background-image: url(images/trener3.png);
+      background-size: 98.5%  98.5%;
+      background-position: center;
+    }
+  
+    .trener4 {
+      background-image: url(images/trener4.png);
+      background-size: 98.5%  98.5%;
+      background-position: center;
+    }
+
+    .trener5 {
+      background-image: url(images/trener5.png);
+      background-size: 98.5%  98.5%;
+      background-position: center;
+    }
+
+    .trener6 {
+      background-image: url(images/trener6.png);
+      background-size: 98.5%  98.5%;
+      background-position: center;
+    }
+ 
+  
+    .card::-webkit-scrollbar {
+      display: none;
+    }
+
+    .specialbutton {
+      color: #004F57;
+      margin-right: 0.5vw;
+      margin-left: 1vw;
+      font-size: 10vh;
+      border: 0px;
+      background-color: #F3F2F2;
+      outline: none;
+      box-shadow: none;
+      opacity: 1;
+    }
+    .specialbutton:hover {
+      opacity: 1;
+    }
+
+    .name {
+      text-align: center;
+      padding-top: 60vh;
+      margin-bottom: -2vh;
+      font-size: 2vh;
+      
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .map1{
+      width: 70vw;
+      height: 40vw;
+      margin-top: 2vw;
+      margin-left: 10vw;
+      margin-right: 7vw;
+      margin-bottom: 8vw;
+    }
+
+    .calendar {
+      width: 80vw;
+      height: 100vh;
+      margin-left: 5vw;
+    }
