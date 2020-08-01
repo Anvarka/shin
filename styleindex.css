@@ -12,13 +12,13 @@
   margin-left: 2.7vw;
   margin-right: 2.7vw;
   min-width: 90vw;
-  height: 1.7vh;
+  height: 1vh;
   border: 0.2vh solid #767575;
   background-color: #C4C4C4;
 }
 
 .place1 {
-  width: 1vw;
+  width: 0.3vw;
   height: 4.6vh;
   border: 0.2vh solid #767575;
   background-color: #C4C4C4;
@@ -122,7 +122,19 @@ h1.meet1 {
   text-align: center;
   font-size: 7vh;
   padding-bottom: 2vh;
+  margin-top: -7vh;
 }
+
+h1.meet12 {
+  font-family: "Roboto";
+  color: #004F57;
+  font-weight: 400;
+  text-align: center;
+  font-size: 7vh;
+  padding-bottom: 2vh;
+  margin-top: 2vh;
+}
+
 
 .priorwrap {
   width: 79vw; /*фиксируем ширину обертки*/
@@ -177,11 +189,12 @@ h1.meet1 {
 }
 
 .telephone {
+  z-index: 1;
   font-family: "Roboto";
   color: white;
   font-size: 3vw;
-  padding-top: 43vh;
-  padding-left: 77vw;
+  padding-top: 32vh;
+  padding-left: 78.5vw;
   font-weight: 600;
 }
 
@@ -210,7 +223,9 @@ p {
   color: rgb(121, 118, 118);
   font-weight: 900;
   font-size: 3.7vh;
-  padding-top: 6vh;
+  padding-top: 3vh;
+  text-align: left;
+  margin-left: 1vw;
 }
 
 p.controlend {
@@ -233,7 +248,7 @@ body {
   margin-left: 2.7vw;
   margin-right: 2.7vw;
   min-width: 90vw;
-  min-height: 50vh;
+  height: 40vh;
 
   margin-top: 5vh;
   padding-bottom: 0.2vh;
@@ -485,13 +500,26 @@ p.contact {
   font-weight: 400;
   padding: 0vh 0vw;
   line-height: 0.8vh;
+  text-align: center;
 }
 
 p.comment {
   color:#838282;
   font-size: 2.8vh;
   font-weight: 400;
-  padding-top: 2vh;
+  padding-top: 0.01vh;
+  margin-top: -1.5vh;
+  margin-left: -1vw;
+}
+
+p.important {
+  color: rgb(121, 118, 118);
+  font-weight: 900;
+  font-size: 3.7vh;
+  padding-top: 6vh;
+  text-align: left;
+  margin-left: 1vw;
+  margin-bottom: -1.5vw;
 }
 
 .mainbadges {
@@ -636,16 +664,48 @@ p.comment {
     }
 
     .map1{
-      width: 70vw;
+      width: 40vw;
       height: 40vw;
       margin-top: 2vw;
-      margin-left: 10vw;
-      margin-right: 7vw;
       margin-bottom: 8vw;
+    }
+
+    .map2{
+      width: 50vw;
+      height: 36.7vw;
+      margin-left: 2vw;
     }
 
     .calendar {
       width: 80vw;
       height: 100vh;
       margin-left: 5vw;
+    }
+
+    table.time {
+      float: right;
+      width: 40vw;
+      height: 20vh;
+      background-color: rgb(202, 202, 250);
+    }
+
+    th {
+      color: white;
+      text-align: center;
+      font-size: 2vh;
+      height: 7vw;
+      width: 7vw;
+    }
+
+    td {
+      color: white;
+      text-align: center;
+      font-size: 3vh;
+      height: 7vw;
+      width: 7vw;
+    }
+
+    .rasp{
+      width: 90vw;
+      display: inline-flex;
     }
